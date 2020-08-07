@@ -1,0 +1,31 @@
+router
+  .route("/%MODEL_NAME%")
+  .get(
+    %INDEX_PROTECT%,
+    %INDEX_RESTRICT%,
+    %CONTROLLER_NAME%.get
+  )
+  .post(
+    %STORE_PROTECT%,
+    %STORE_RESTRICT%,
+    %CONTROLLER_NAME%.store
+  );
+router
+  .route("/%MODEL_NAME%/:id")
+  .get(
+    %SHOW_PROTECT%,
+    %SHOW_RESTRICT%,
+    %CONTROLLER_NAME%.show
+  )
+  .patch(
+    %UPDATE_PROTECT%,
+    %UPDATE_RESTRICT%,
+    %CONTROLLER_NAME%.update
+  )
+  .delete(
+    %DESTROY_PROTECT%,
+    %DESTROY_RESTRICT%,
+    %CONTROLLER_NAME%.destroy
+  );
+
+module.exports = router;

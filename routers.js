@@ -4,6 +4,8 @@ const router = require("express").Router();
 const UserController = require("./controllers/UserController");
 const AuthController = require("./controllers/AuthController");
 
+//umi-import-do-not-delete
+
 router.route("/login").post(AuthController.login);
 
 router
@@ -35,6 +37,3 @@ router
     AuthController.restrictTo("UserDestroy"),
     UserController.destroy
   );
-
-//Return
-module.exports = router;

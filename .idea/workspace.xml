@@ -34,6 +34,7 @@
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/acl/permissions.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cli/seed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/template/router.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/controllers/AuthController.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/controllers/UserController.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/controllers/UserGroupController.js" afterDir="false" />
@@ -41,9 +42,6 @@
       <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/UserGroup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/permission/acl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/controller.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/model.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/assets/scss/base/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/assets/scss/base/_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/components/ui/CommandButtonsComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/components/ui/CommandButtonsComponent.vue" afterDir="false" />
@@ -83,6 +81,9 @@
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/controller.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cli/template/controller.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/model.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cli/template/model.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umi9.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +123,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cli" />
       <recent name="$PROJECT_DIR$/permission" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -139,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596718577911</updated>
       <workItem from="1596718578963" duration="1235000" />
-      <workItem from="1596800488962" duration="10303000" />
+      <workItem from="1596800488962" duration="15787000" />
     </task>
     <servers />
   </component>
