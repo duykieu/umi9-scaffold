@@ -51,7 +51,11 @@ umi9 make:model Collection --fields=name:String#required-minLength:5-maxLength:1
 
 ### Making controller
 ```
-umi9 make:controller ProductController Product //Both controller name and model name are required
+//Both controller name and model name are required
+umi9 make:controller ProductController Product 
+
+//Only user with these permission can access, the scaffold will create router configuration for you
+umi9 make:controller CategoryController Category --protect=Update,Store,Destroy 
 ```
 
 *Have a look at `.env` file*
