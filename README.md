@@ -46,7 +46,7 @@ umi9 make:superuser
 ### Making some model
 ```
 umi9 make:model Product --fields=name:String,slug:String //Basic
-umi9 make:model Collection --fields=name:String#required-minLength:5-maxLength:100,slug#unique //Specifying rule
+umi9 make:model Collection --fields=name:String#required-minLength:5-maxLength:100,slug:String#unique //Specifying rule
 ```
 
 ### Making controller
