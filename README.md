@@ -40,7 +40,7 @@ umi9 seed:acl
 
 ### Creating super user
 ```
-umi9 make:superuser
+umi9 make:superuser email=admin@admin.com phoneNumber=09382028209 password=abc@123
 ```
 
 ### Making some model
