@@ -57,4 +57,4 @@ umi9 make:controller ProductController Product //Both controller name and model 
 *Have a look at `.env` file*
 
 ## Credit
-Thank to Jonas, who owns the course !(https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)[Node.js, Express, MongoDB & More: The Complete Bootcamp 2020] which help me make this project
+Thank to Jonas, who owns the course [Node.js, Express, MongoDB & More: The Complete Bootcamp 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/) which help me make this project
