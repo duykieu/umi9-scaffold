@@ -45,14 +45,18 @@ umi9 make:superuser
 
 ### Making some model
 ```
-umi9 make:model Product --fields=name:String,slug:String //Basic
-umi9 make:model Collection --fields=name:String#required-minLength:5-maxLength:100,slug:String#unique //Specifying rule
+//Basic
+umi9 make:model Product --fields=name:String,slug:String 
+
+//Specifying rule
+umi9 make:model Collection --fields=name:String#required-minLength:5-maxLength:100,slug:String#unique 
 ```
 
 ### Making controller
 ```
 //Both controller name and model name are required
 umi9 make:controller ProductController Product 
+
 
 //Only user with these permission can access, the scaffold will create router configuration for you
 umi9 make:controller CategoryController Category --protect=Update,Store,Destroy 
