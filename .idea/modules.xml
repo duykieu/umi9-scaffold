@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../umi9-broker/.idea/umi9-broker.iml" filepath="$PROJECT_DIR$/../umi9-broker/.idea/umi9-broker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/umi9-core.iml" filepath="$PROJECT_DIR$/.idea/umi9-core.iml" />
+    </modules>
+  </component>
+</project>

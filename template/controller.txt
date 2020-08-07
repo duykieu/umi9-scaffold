@@ -1,0 +1,96 @@
+const { catchAsync } = require("../libs/utils");
+const AppError = require("../libs/AppError");
+const %MODEL_NAME% = require("../models/%MODEL_NAME%");
+
+/**
+ * Get resources %MODEL_NAME%
+ * @type {function(...[*]=)}
+ */
+exports.get = catchAsync(async (req, res, next) => {
+  const { page, limit, ...query } = req.query;
+  const skip = page && limit ? page * limit - limit : 0;
+
+  const %PLURAL_NAME% = await User.find(query)
+    .limit(limit ? Number(limit) : Number(process.env.DEFAULT_PER_PAGE || 15))
+    .skip(skip);
+
+  const total = await %MODEL_NAME%.countDocuments({ ...req.query });
+
+  return res.json({
+    success: true,
+    entries: {
+      %PLURAL_NAME%,
+      total,
+    },
+  });
+});
+
+/**
+ * Storing new resource %MODEL_NAME%
+ * @type {function(...[*]=)}
+ */
+exports.store = catchAsync(async (req, res, next) => {
+  const { data } = req.body;
+  const %REGULAR_NAME% = await %MODEL_NAME%.create(data);
+
+  return res.json({
+    success: true,
+    entries: {
+      %REGULAR_NAME%,
+    },
+  });
+});
+
+/**
+ * Get single resource %MODEL_NAME%
+ * @type {function(...[*]=)}
+ */
+exports.show = catchAsync(async (req, res, next) => {
+  const %REGULAR_NAME% = await %MODEL_NAME%.findById(id);
+
+  if (!%REGULAR_NAME%) return next(new AppError("Item not found", 404));
+
+  return res.json({
+    success: true,
+    entries: {
+      %REGULAR_NAME%,
+    },
+  });
+});
+
+/**
+ * Updating resource %MODEL_NAME%
+ * @type {function(...[*]=)}
+ */
+exports.update = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
+  const data = req.body;
+  const %REGULAR_NAME% = await %MODEL_NAME%.findByIdAndUpdate(id, data, { new: true });
+
+  if (!%REGULAR_NAME%) return next(new AppError("Item not found", 404));
+
+  return res.json({
+    success: true,
+    entries: {
+      %REGULAR_NAME%,
+    },
+  });
+});
+
+/**
+ * Destroy resource %MODEL_NAME%
+ * @type {function(...[*]=)}
+ */
+exports.destroy = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
+  const %REGULAR_NAME% = await %MODEL_NAME%.findByIdAndDelete(id);
+
+  if (!%REGULAR_NAME%) return next(new AppError("Item not found", 404));
+
+  return res.json({
+    success: true,
+    entries: {
+      %REGULAR_NAME%,
+    },
+  });
+});

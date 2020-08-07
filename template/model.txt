@@ -1,0 +1,7 @@
+const mongoose = require('mongoose')
+
+const %MODEL_NAME%Schema = new mongoose.Schema({
+    %MODEL_FIELDS%
+})
+
+module.exports = mongoose.model('%MODEL_NAME%', %MODEL_NAME%Schema, '%TABLE_NAME%')

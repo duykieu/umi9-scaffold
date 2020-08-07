@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f474dbe-de7d-4391-abee-ac6ac2c17406" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/property/category/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/property/category/mixins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/store/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/server/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/server/Controllers/CategoryModelController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/server/Migrations/acl_migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/server/Migrations/category_models_migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/server/Migrations/user_groups_migation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/server/Models/CategoryModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../umi9-broker/server/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acl/permissions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/seed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/AuthController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/UserController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/UserGroupController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/UserGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permission/acl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/controller.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/model.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/assets/scss/base/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/assets/scss/base/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/components/ui/CommandButtonsComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/components/ui/CommandButtonsComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/components/ui/GridComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/components/ui/GridComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/constants/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/constants/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/layouts/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/layouts/main.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/locales/vi/acl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/locales/vi/acl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/middleware/authenticated.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/middleware/authenticated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/property/category/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/property/category/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/property/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/property/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/user-group/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/user-group/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/user/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/user/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/user/create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/user/create.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/user/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/pages/user/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/plugins/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/plugins/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/plugins/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/plugins/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/plugins/persists.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/plugins/persists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/store/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/nuxt-dashboard/store/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/Controllers/CategoryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/Controllers/CategoryController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/Controllers/PropertyController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/Controllers/PropertyController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/Database/converts/property.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/Database/converts/property.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/Models/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/Models/Category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/Models/Property.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/Models/Property.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/aclMigrate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../umi9-broker/server/routers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umi9-broker/server/userGroupMigrate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/umi9-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/umi9-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/make.js" beforeDir="false" afterPath="$PROJECT_DIR$/cli/make.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umi9.js" beforeDir="false" afterPath="$PROJECT_DIR$/umi9.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1fj5I1kepPEOgTwus77UvWFfPt0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.2.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.0.27" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controllers" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/permission" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controllers" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f474dbe-de7d-4391-abee-ac6ac2c17406" name="Default Changelist" comment="" />
+      <created>1596718577911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596718577911</updated>
+      <workItem from="1596718578963" duration="1235000" />
+      <workItem from="1596800488962" duration="10303000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="688" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596718843890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596718843890" />
+    <state x="351" y="107" key="SettingsEditor" timestamp="1596801011216">
+      <screen x="0" y="23" width="1920" height="1123" />
+    </state>
+    <state x="351" y="78" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596719151316" />
+    <state x="351" y="107" key="SettingsEditor/0.23.1920.1123@0.23.1920.1123" timestamp="1596801011216" />
+    <state x="625" y="274" width="670" height="676" key="search.everywhere.popup" timestamp="1596808801971">
+      <screen x="0" y="23" width="1920" height="1123" />
+    </state>
+    <state x="625" y="274" width="670" height="676" key="search.everywhere.popup/0.23.1920.1123@0.23.1920.1123" timestamp="1596808801971" />
+  </component>
+</project>

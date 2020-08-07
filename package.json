@@ -1,0 +1,31 @@
+{
+  "name": "umi9-base",
+  "version": "1.0.0",
+  "description": "A boilerplate for making your api server easy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "umi9": "./umi9.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "color": "^3.1.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0",
+    "pluralize": "^8.0.0",
+    "validator": "^13.1.1"
+  }
+}
