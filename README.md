@@ -62,6 +62,9 @@ umi9 make:controller ProductController Product
 umi9 make:controller CategoryController Category --protect=Update,Store,Destroy 
 ```
 
+### Routing
+When making controller, the scaffold also append router setting to the `routers.js` file.
+
 *Have a look at `.env` file*
 
 ## Credit
