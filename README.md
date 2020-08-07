@@ -40,19 +40,30 @@ umi9 seed:acl
 
 ### Creating super user
 ```
-umi9 make:superuser
+umi9 make:superuser email=admin@admin.com phoneNumber=09382028209 password=abc@123
 ```
 
 ### Making some model
 ```
-umi9 make:model Product --fields=name:String,slug:String //Basic
-umi9 make:model Collection --fields=name:String#required-minLength:5-maxLength:100,slug:String#unique //Specifying rule
+//Basic
+umi9 make:model Product --fields=name:String,slug:String 
+
+//Specifying rule
+umi9 make:model Collection --fields=name:String#required-minLength:5-maxLength:100,slug:String#unique 
 ```
 
 ### Making controller
 ```
-umi9 make:controller ProductController Product //Both controller name and model name are required
+//Both controller name and model name are required
+umi9 make:controller ProductController Product 
+
+
+//Only user with these permissions can access, the scaffold will create router configuration for you
+umi9 make:controller CategoryController Category --protect=Update,Store,Destroy 
 ```
+
+### Routing
+When making controller, the scaffold also append router setting to the `routers.js` file.
 
 *Have a look at `.env` file*
 
