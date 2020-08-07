@@ -58,7 +58,7 @@ umi9 make:model Collection --fields=name:String#required-minLength:5-maxLength:1
 umi9 make:controller ProductController Product 
 
 
-//Only user with these permission can access, the scaffold will create router configuration for you
+//Only user with these permissions can access, the scaffold will create router configuration for you
 umi9 make:controller CategoryController Category --protect=Update,Store,Destroy 
 ```
 
