@@ -78,6 +78,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/umi9-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/umi9-core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cli/make.js" beforeDir="false" afterPath="$PROJECT_DIR$/cli/make.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ProductController.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -141,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596718577911</updated>
       <workItem from="1596718578963" duration="1235000" />
-      <workItem from="1596800488962" duration="15787000" />
+      <workItem from="1596800488962" duration="15812000" />
     </task>
     <servers />
   </component>
