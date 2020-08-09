@@ -65,7 +65,7 @@ exports.show = catchAsync(async (req, res, next) => {
  */
 exports.update = catchAsync(async (req, res, next) => {
   const { id } = req.params;
-  const data = req.body;
+  const {data} = req.body;
   const %REGULAR_NAME% = await %MODEL_NAME%.findByIdAndUpdate(id, data, { new: true });
 
   if (!%REGULAR_NAME%) return next(new AppError("Item not found", 404));

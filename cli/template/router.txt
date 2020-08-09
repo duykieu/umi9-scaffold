@@ -1,3 +1,4 @@
+// %ROUTE_COMMENT%
 router
   .route("/%MODEL_NAME%")
   .get(

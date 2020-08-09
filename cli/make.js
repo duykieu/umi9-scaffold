@@ -58,14 +58,14 @@ const makeController = (args) => {
 
     routerTemplateContent = routerTemplateContent.replace(/%\w+%,/g, "");
     mainRouterContent = mainRouterContent.replace(
-        "//umi-import-do-not-delete",
-        `
-const ${controllerName} = require('./controllers/${controllerName}');
-//umi-import-do-not-delete`
+        `const router = require("express").Router();`,
+        `const router = require("express").Router();
+const ${controllerName} = require('./controllers/${controllerName}');`
     );
 
     routerTemplateContent = routerTemplateContent.replace(/%CONTROLLER_NAME%/g, controllerName);
-    routerTemplateContent = routerTemplateContent.replace(/%MODEL_NAME%/g, modelName.toLowerCase());
+    routerTemplateContent = routerTemplateContent.replace(/%MODEL_NAME%/g, _.kebabCase(modelName));
+    routerTemplateContent = routerTemplateContent.replace(/%ROUTE_COMMENT%/g, modelName);
     mainRouterContent = mainRouterContent.replace(
         "module.exports = router;",
         routerTemplateContent
