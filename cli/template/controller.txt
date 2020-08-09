@@ -10,7 +10,7 @@ exports.get = catchAsync(async (req, res, next) => {
   const { page, limit, ...query } = req.query;
   const skip = page && limit ? page * limit - limit : 0;
 
-  const %PLURAL_NAME% = await User.find(query)
+  const %PLURAL_NAME% = await %MODEL_NAME%.find(query)
     .limit(limit ? Number(limit) : Number(process.env.DEFAULT_PER_PAGE || 15))
     .skip(skip);
 
@@ -46,6 +46,7 @@ exports.store = catchAsync(async (req, res, next) => {
  * @type {function(...[*]=)}
  */
 exports.show = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
   const %REGULAR_NAME% = await %MODEL_NAME%.findById(id);
 
   if (!%REGULAR_NAME%) return next(new AppError("Item not found", 404));
